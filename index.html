@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login View</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="entire">
+            <img class="login-image" src="image 1.jpg" alt="Login Background Image">
+            <section class="login-form">
+                <form>
+                    <p>Welcome back</p>
+                    <h1>Login to your account</h1>
+                    <ul>
+                        <li class="email">
+                            <label for="email">Email</label></br>
+                            <input type="email" id="email" name="user-email" placeholder="John.snow@gmail.com" required />
+                        </li>
+                        <li class="pwd">
+                            <label for="password">Password</label></br>
+                            <input type="password" id="password" name="user-pwd" placeholder="*********" required>
+                        </li>
+                        <li class="features">
+                            <section>
+                                <input type="checkbox" id="remember-me" name="remember-me" />
+                                <label for="remember-me">Remember me</label>
+                            </section>                            
+                            <a href="" class="forgot-pwd" id="forgot-pwd">Forgot password?</a>
+                        </li>
+                        <button id="login-now" type="submit">Login now</button></br>
+                        <button id="google-login" name="button"><img src="iconfinder_Google_1298745 1.png" >Or sign-in with google</button>
+                    </ul>
+                </form>
+
+                <p id="sign-up">Dont have an account? <a href="">Join free today</a></p>
+            </section>
+        </div>
+    </body>
+</html>
